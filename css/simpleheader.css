@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* Header  detail Section Started */
+.header-details-section h1{
+    color: #ffc107;
+    font-weight: 700;
+}
+
+.Header{
+    font-size: 19px;
+    /* background: #04014a; */
+    color:white;
+    min-height: 121px;
+    /* background-color: #04014a; */
+    background: linear-gradient(60deg, #ffc107 0% 24%, #04014a 24% 24.5%, #ffc107 24.5% 25%, #04014a 25% 25.5%, #ffc107 25.5% 100%);
+
+}
+
+.header-details-section{
+    min-height:40px;
+    color:white;
+    font-size: 16px;
+    /* display: flex; */
+    background: #04014a;
+    background: linear-gradient(60deg, #04014a 0% 21.5%, #ffc107 21.5% 22%, #04014a 22% 22.5%, #ffc107 22.5% 23%, #04014a 23% 100%);
+    
+    /* background: linear-gradient(60deg, #ffc107 0% 25%, #04014a 25% 100%); */
+    padding-bottom: 10px;
+}
+
+.second-row{
+    background: linear-gradient(60deg, #ffc107 0% 24%, #04014a 24% 24.5%, #ffc107 24.5% 25%, #04014a 25% 25.5%, #ffc107 25.5% 100%);
+    min-height: 73px;
+}
+
+.second-row a h4{
+    color: #04014a;
+    font-weight: 700;
+}
+
+
+/* Add Teacher Section start */
+.add_teachers{
+    box-sizing: border-box;
+    /* width: 300px; */
+    /* height: 300px; */
+    /* background: rgba(217, 217, 217, 0.58); */
+    border: 1px solid gray;
+    /* box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22); */
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+  }
+  
+  .add_teachers:hover{
+    border: 1px solid #04014a;
+    transform: scale(1.05);
+  }
+  
+  .add_teachers:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+  
+  .add_teachers h2 ion-icon{
+    font-size: 5rem;
+    color: #04014a;
+  }
+  /* Add Teacher Section end */

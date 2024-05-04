@@ -1,0 +1,98 @@
+/* Header Section start */
+@media (min-width:360px) and (max-width:599px)  { /* smartphones, Android phones, landscape iPhone */
+  .Header{
+    background-color: #04014a;
+}
+
+.header-details-section{
+  background: #04014a;
+}
+
+.second-row{
+ background: #ffc107;
+}
+}
+
+
+/* Header Section End */
+
+
+/* About Section Start */
+@media (min-width:360px) and (max-width:599px)  { /* smartphones, Android phones, landscape iPhone */
+    .noticeBoard {
+        width: 210px;
+        height: 350px;
+      }
+      .ribbon{
+        width: 250px;
+      }
+  }
+/* About Section End */
+
+
+/* Event Section Start */
+@media (min-width:360px) and (max-width:599px)  { /* smartphones, Android phones, landscape iPhone */
+    .event_heading{
+        font-size: 2rem;
+        margin: 20px;
+    }
+    .events_section .event {
+        height: 250px;
+        margin-top: 20%;
+        margin-left: -8px;
+      }
+  }
+/* Event Section End */
+
+
+/* Massage Desk Section Start */
+@media (min-width:360px) and (max-width:599px)  { /* smartphones, Android phones, landscape iPhone */
+    .massage_desk_heading{
+        font-size: 2rem;
+    }
+    .results-summary-container {
+      margin-left: -5%;
+    }
+  }
+
+  /* Massage DeskSection End */
+
+
+
+  /* Prellex Section start */
+  @media (min-width:360px) and (max-width:599px)  { /* smartphones, Android phones, landscape iPhone */
+    .video-card {
+        width: 70%;
+        height: 100%;
+        margin-left: 5%;
+     }
+     .video-card iframe{
+        width: 300px;
+     }
+  }
+  /* Prellex Section End */
+
+
+  /* Footer Section start */
+  @media (min-width:360px) and (max-width:599px)  { /* smartphones, Android phones, landscape iPhone */
+    .footer-content-column{
+      height: 200px;
+    }
+  }
+ 
+  /* Footer Section end */
+
+
+
+  /* Admin Dashbord Section start */
+  @media (min-width:360px) and (max-width:599px)  { /* smartphones, Android phones, landscape iPhone */
+    .card{
+      margin-left: 60%;
+    }
+    
+  }
+  /* Admin Dashbord Section end */
+
+
+
+  
